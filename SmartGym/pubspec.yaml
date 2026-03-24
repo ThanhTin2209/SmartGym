@@ -1,0 +1,64 @@
+name: smartgym
+description: "SmartGym - Flutter app kết nối ASP.NET API để đăng nhập và đăng ký người dùng."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🧩 Gửi request HTTP tới ASP.NET API
+  http: ^1.2.0
+
+  # 🧠 Quản lý trạng thái (nếu bạn muốn mở rộng sau này)
+  provider: ^6.1.2
+
+  # 🔐 Lưu token đăng nhập cục bộ
+  shared_preferences: ^2.2.3
+
+  # 🔔 Toast thông báo
+  fluttertoast: ^9.0.0
+
+  # 📊 Biểu đồ (dinh dưỡng, uống nước, macro)
+  fl_chart: ^0.65.0
+  image_picker: ^0.8.7+3
+
+  # 📅 Định dạng ngày
+  intl: ^0.18.1
+
+  # 🔑 Decode JWT để lấy userId
+  jwt_decoder: ^2.0.1
+
+  # 🌐 Xử lý JSON nâng cao (nếu cần parse phức tạp)
+  json_annotation: ^4.9.0
+
+  # 🛠️ Dùng cho code generation (model toJson/fromJson)
+  build_runner: ^2.4.8
+  json_serializable: ^6.8.0
+
+  # --- UI / UX helpers added ---
+  # Hiển thị thanh phần trăm / vòng tròn tiến độ
+  percent_indicator: ^4.2.2
+
+  # Kéo để làm mới danh sách (Suggestions)
+  pull_to_refresh: ^2.0.0
+
+  # Kiểm tra trạng thái mạng (offline/online)
+  connectivity_plus: ^4.0.0
+  flutter_staggered_animations: ^1.1.1
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
