@@ -1,0 +1,1578 @@
+[
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "ExportBackup",
+    "RelativePath": "api/Admin/backup/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/Admin/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "ClearAllData",
+    "RelativePath": "api/Admin/data/clear-all",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "DeleteExercise",
+    "RelativePath": "api/Admin/data/exercise/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetAllExercises",
+    "RelativePath": "api/Admin/data/exercises",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetAllNutrition",
+    "RelativePath": "api/Admin/data/nutrition",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "DeleteNutrition",
+    "RelativePath": "api/Admin/data/nutrition/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetAllSleep",
+    "RelativePath": "api/Admin/data/sleep",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "DeleteSleep",
+    "RelativePath": "api/Admin/data/sleep/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetAllWater",
+    "RelativePath": "api/Admin/data/water",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "DeleteWater",
+    "RelativePath": "api/Admin/data/water/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetSettings",
+    "RelativePath": "api/Admin/settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "LockUser",
+    "RelativePath": "api/Admin/users/lock/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "ChangeUserRole",
+    "RelativePath": "api/Admin/users/role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Controllers.ChangeRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AdminController",
+    "Method": "UnlockUser",
+    "RelativePath": "api/Admin/users/unlock/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AiChatController",
+    "Method": "Chat",
+    "RelativePath": "api/AiChat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartGymAPI.Models.AiChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Controllers.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.BlockchainController",
+    "Method": "GetBalance",
+    "RelativePath": "api/Blockchain/balance/{address}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.BlockchainController",
+    "Method": "CreateWallet",
+    "RelativePath": "api/Blockchain/create-wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.BlockchainController",
+    "Method": "DailyCheckIn",
+    "RelativePath": "api/Blockchain/daily-checkin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.BlockchainController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Blockchain/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.AddToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.CartController",
+    "Method": "UpdateQuantity",
+    "RelativePath": "api/Cart/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.UpdateCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.CartController",
+    "Method": "RemoveFromCart",
+    "RelativePath": "api/Cart/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.CartController",
+    "Method": "ClearCart",
+    "RelativePath": "api/Cart/clear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Create",
+    "RelativePath": "api/Exercise",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.ExerciseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "GetByDate",
+    "RelativePath": "api/Exercise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "start",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "GetById",
+    "RelativePath": "api/Exercise/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Update",
+    "RelativePath": "api/Exercise/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.ExerciseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Delete",
+    "RelativePath": "api/Exercise/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Progress",
+    "RelativePath": "api/Exercise/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "range",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Suggestions",
+    "RelativePath": "api/Exercise/suggestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "availableSeconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseController",
+    "Method": "Summary",
+    "RelativePath": "api/Exercise/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseTemplateController",
+    "Method": "GetAll",
+    "RelativePath": "api/ExerciseTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseTemplateController",
+    "Method": "Create",
+    "RelativePath": "api/ExerciseTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.ExerciseTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseTemplateController",
+    "Method": "Update",
+    "RelativePath": "api/ExerciseTemplate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.ExerciseTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseTemplateController",
+    "Method": "Delete",
+    "RelativePath": "api/ExerciseTemplate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ExerciseTemplateController",
+    "Method": "BulkUpdate",
+    "RelativePath": "api/ExerciseTemplate/bulk-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templates",
+        "Type": "System.Collections.Generic.List\u00601[[SmartGymAPI.Models.ExerciseTemplate, SmartGymAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "GetPackages",
+    "RelativePath": "api/GymService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmartGymAPI.Models.GymPackage, SmartGymAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "CreatePackage",
+    "RelativePath": "api/GymService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gymPackage",
+        "Type": "SmartGymAPI.Models.GymPackage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartGymAPI.Models.GymPackage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "GetPackage",
+    "RelativePath": "api/GymService/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmartGymAPI.Models.GymPackage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "PutPackage",
+    "RelativePath": "api/GymService/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gymPackage",
+        "Type": "SmartGymAPI.Models.GymPackage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "DeletePackage",
+    "RelativePath": "api/GymService/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.GymServiceController",
+    "Method": "Subscribe",
+    "RelativePath": "api/GymService/subscribe/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SmartGymAPI.Controllers.GymServiceController\u002BSubscribeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.HealthProfileController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/HealthProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.HealthProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.HealthProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/HealthProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "update",
+        "Type": "SmartGymAPI.Models.HealthProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.HealthProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "api/HealthProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.HealthProfileController",
+    "Method": "CheckProfile",
+    "RelativePath": "api/HealthProfile/check",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.MealController",
+    "Method": "GetAll",
+    "RelativePath": "api/Meal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.MealController",
+    "Method": "Create",
+    "RelativePath": "api/Meal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.MealTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.MealController",
+    "Method": "Update",
+    "RelativePath": "api/Meal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.MealTemplate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.MealController",
+    "Method": "Delete",
+    "RelativePath": "api/Meal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "AddNutrition",
+    "RelativePath": "api/Nutrition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.NutritionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Nutrition",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetById",
+    "RelativePath": "api/Nutrition/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "Update",
+    "RelativePath": "api/Nutrition/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.NutritionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "Delete",
+    "RelativePath": "api/Nutrition/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetLast30Days",
+    "RelativePath": "api/Nutrition/last30days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetLast7Days",
+    "RelativePath": "api/Nutrition/last7days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetProgressToday",
+    "RelativePath": "api/Nutrition/progress-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetSuggestions",
+    "RelativePath": "api/Nutrition/suggestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "remainingCalories",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "mealTime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.NutritionController",
+    "Method": "GetToday",
+    "RelativePath": "api/Nutrition/today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "GetMyOrders",
+    "RelativePath": "api/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Order/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "api/Order/admin/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.UpdateStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Order/admin/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "Checkout",
+    "RelativePath": "api/Order/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.CheckoutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "SimulatePayment",
+    "RelativePath": "api/Order/simulate-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.SimulatePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.OrderController",
+    "Method": "PaymentHandler",
+    "RelativePath": "api/Order/webhook/payment-handler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.Controllers.PaymentWebhookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductCategoryController",
+    "Method": "Create",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.ProductCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductCategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductCategoryController",
+    "Method": "Update",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.ProductCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.ProductCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "AddSleep",
+    "RelativePath": "api/Sleep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.SleepDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sleep",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetById",
+    "RelativePath": "api/Sleep/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "Update",
+    "RelativePath": "api/Sleep/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartGymAPI.DTOs.UpdateSleepDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "Delete",
+    "RelativePath": "api/Sleep/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetLast30Days",
+    "RelativePath": "api/Sleep/last30days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetLast7Days",
+    "RelativePath": "api/Sleep/last7days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetProgressToday",
+    "RelativePath": "api/Sleep/progress-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.SleepController",
+    "Method": "GetToday",
+    "RelativePath": "api/Sleep/today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.UserProfileController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/UserProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SmartGymAPI.Models.UserProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.UserProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "api/UserProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetWaterIntakes",
+    "RelativePath": "api/WaterIntake",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "AddWaterIntake",
+    "RelativePath": "api/WaterIntake",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "SmartGymAPI.DTOs.AddWaterIntakeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "UpdateWaterIntake",
+    "RelativePath": "api/WaterIntake/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "data",
+        "Type": "SmartGymAPI.DTOs.AddWaterIntakeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "DeleteWaterIntake",
+    "RelativePath": "api/WaterIntake/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetChart30Days",
+    "RelativePath": "api/WaterIntake/chart-30-days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetChart7Days",
+    "RelativePath": "api/WaterIntake/chart-7-days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetLast30Days",
+    "RelativePath": "api/WaterIntake/last30days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetLast7Days",
+    "RelativePath": "api/WaterIntake/last7days",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetTodayProgress",
+    "RelativePath": "api/WaterIntake/progress-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WaterIntakeController",
+    "Method": "GetTodayIntake",
+    "RelativePath": "api/WaterIntake/today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartGymAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmartGymAPI.WeatherForecast, SmartGymAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

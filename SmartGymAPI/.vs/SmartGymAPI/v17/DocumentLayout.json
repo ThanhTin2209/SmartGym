@@ -1,0 +1,569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dacn\\SmartGymAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\healthprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\healthprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\services\\aichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\services\\aichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\aichatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\aichatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\aichatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\aichatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\healthprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\healthprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\nutritionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\nutritionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\sleeprecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\sleeprecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\waterintakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\waterintakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\data\\smartgymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\data\\smartgymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\progressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\progressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\exercisesuggestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\exercisesuggestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\exercisetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\exercisetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\exercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\exercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\exerciserecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\exerciserecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\nutritioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\nutritioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\nutritiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\nutritiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\sleepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\sleepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\utils\\healthutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\utils\\healthutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\updatesleepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\updatesleepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\sleepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\sleepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\dtos\\addwaterintakedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\dtos\\addwaterintakedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\models\\waterintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\models\\waterintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\smartgymapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\smartgymapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|c:\\dacn\\smartgymapi\\smartgymapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5BB1C0-F99C-4A2F-A3B4-D3CC3D165D4D}|SmartGymAPI\\SmartGymAPI.csproj|solutionrelative:smartgymapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 309,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AiChatService.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Services\\AiChatService.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Services\\AiChatService.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Services\\AiChatService.cs",
+              "RelativeToolTip": "SmartGymAPI\\Services\\AiChatService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:21:22.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AiChatController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AiChatController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\AiChatController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AiChatController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\AiChatController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:21:10.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AiChatRequest.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\AiChatRequest.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\AiChatRequest.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\AiChatRequest.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\AiChatRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:21:00.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwIMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T22:46:42.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartGymAPI\\appsettings.json",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\appsettings.json",
+              "RelativeToolTip": "SmartGymAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T09:47:48.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WaterIntakeController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\WaterIntakeController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\WaterIntakeController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\WaterIntakeController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\WaterIntakeController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowLcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T23:00:41.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthProfileController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\HealthProfileController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\HealthProfileController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\HealthProfileController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\HealthProfileController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwHUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:01:09.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Program.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Program.cs",
+              "RelativeToolTip": "SmartGymAPI\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:25:06.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SleepRecord.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\SleepRecord.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\SleepRecord.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\SleepRecord.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\SleepRecord.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T21:29:05.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NutritionRecord.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\NutritionRecord.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\NutritionRecord.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\NutritionRecord.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\NutritionRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:49:44.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NutritionController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\NutritionController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\NutritionController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\NutritionController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\NutritionController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:03:55.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ExerciseRecord.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\ExerciseRecord.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\ExerciseRecord.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\ExerciseRecord.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\ExerciseRecord.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T22:04:38.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExerciseDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ExerciseDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\ExerciseDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ExerciseDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\ExerciseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T22:05:03.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExerciseController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\ExerciseController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\ExerciseController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\ExerciseController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\ExerciseController.cs",
+              "ViewState": "AgIAAKEBAAAAAAAAAAApwLEBAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T22:08:52.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExerciseTemplate.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\ExerciseTemplate.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\ExerciseTemplate.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\ExerciseTemplate.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\ExerciseTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T23:38:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExerciseSuggestionDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ExerciseSuggestionDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\ExerciseSuggestionDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ExerciseSuggestionDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\ExerciseSuggestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T23:38:23.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProgressResponseDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ProgressResponseDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\ProgressResponseDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\ProgressResponseDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\ProgressResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T23:38:47.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NutritionDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\NutritionDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\NutritionDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\NutritionDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\NutritionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:50:24.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HealthUtils.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Utils\\HealthUtils.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Utils\\HealthUtils.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Utils\\HealthUtils.cs",
+              "RelativeToolTip": "SmartGymAPI\\Utils\\HealthUtils.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T19:59:34.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SleepController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\SleepController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\SleepController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\SleepController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\SleepController.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAqwAcBAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T21:33:29.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateSleepDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\UpdateSleepDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\UpdateSleepDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\UpdateSleepDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\UpdateSleepDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T21:30:32.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SleepDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\SleepDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\SleepDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\SleepDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\SleepDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T21:29:34.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddWaterIntakeDto.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\AddWaterIntakeDto.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\DTOs\\AddWaterIntakeDto.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\DTOs\\AddWaterIntakeDto.cs",
+              "RelativeToolTip": "SmartGymAPI\\DTOs\\AddWaterIntakeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T21:17:16.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WaterIntake.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\WaterIntake.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\WaterIntake.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\WaterIntake.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\WaterIntake.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T22:47:32.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwC0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:55:00.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\UserProfile.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:52:48.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartGymAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\appsettings.Development.json",
+              "RelativeToolTip": "SmartGymAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T09:19:31.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "SmartGymAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:19:24.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SmartGymAPI.http",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\SmartGymAPI.http",
+              "RelativeDocumentMoniker": "SmartGymAPI\\SmartGymAPI.http",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\SmartGymAPI.http",
+              "RelativeToolTip": "SmartGymAPI\\SmartGymAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-29T09:19:20.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:42:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HealthProfile.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\HealthProfile.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Models\\HealthProfile.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Models\\HealthProfile.cs",
+              "RelativeToolTip": "SmartGymAPI\\Models\\HealthProfile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:16:16.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmartGymDbContext.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Data\\SmartGymDbContext.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Data\\SmartGymDbContext.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Data\\SmartGymDbContext.cs",
+              "RelativeToolTip": "SmartGymAPI\\Data\\SmartGymDbContext.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAuwLUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:15:55.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartGymAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T09:47:44.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SmartGymAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\dacn\\SmartGymAPI\\SmartGymAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SmartGymAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:47:28.545Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

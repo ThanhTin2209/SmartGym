@@ -1,0 +1,82 @@
+[
+    {
+        "Id": 1,
+        "Name": "Thực phẩm bổ sung",
+        "Description": "Whey protein, mass gainer, vitamin",
+        "ImageUrl": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 2,
+        "Name": "Dụng cụ tập luyện",
+        "Description": "Tạ, dây kháng lực, máy tập",
+        "ImageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 3,
+        "Name": "Trang phục thể thao",
+        "Description": "Áo, quần, giày tập gym",
+        "ImageUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 4,
+        "Name": "Phụ kiện tập luyện",
+        "Description": "Găng tay, đai lưng, băng cổ tay",
+        "ImageUrl": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 5,
+        "Name": "Thiết bị Cardio",
+        "Description": "Máy chạy bộ, xe đạp tập",
+        "ImageUrl": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 6,
+        "Name": "Yoga & Pilates",
+        "Description": "Thảm yoga, block, dây tập",
+        "ImageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 7,
+        "Name": "Dinh dưỡng thể thao",
+        "Description": "Năng lượng, phục hồi, giảm cân",
+        "ImageUrl": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 8,
+        "Name": "Đồ uống thể thao",
+        "Description": "Bình lắc, bình nước, isotonic",
+        "ImageUrl": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 9,
+        "Name": "Thiết bị gia đình",
+        "Description": "Dụng cụ tập tại nhà",
+        "ImageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+        "Id": 10,
+        "Name": "Sức khỏe & Phục hồi",
+        "Description": "Massage, foam roller, băng dính",
+        "ImageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+        "IsActive": true,
+        "CreatedAt": "2025-01-01T00:00:00Z"
+    }
+]
