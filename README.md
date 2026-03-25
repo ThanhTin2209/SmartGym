@@ -1,165 +1,153 @@
-# 💪 SmartGym - Hệ Thống Quản Lý Sức Khỏe & Tập Luyện Thông Minh
+#  SmartGym - Hệ Thống Quản Lý Sức Khỏe & Tập Luyện
 
 ---
 
-## 📌 Giới Thiệu Dự Án
+## 📌 1. Tổng Quan Dự Án
 
-**SmartGym** là một hệ thống quản lý sức khỏe cá nhân toàn diện, giúp người dùng theo dõi, phân tích và cải thiện thể chất thông qua dữ liệu và công nghệ hiện đại.
+SmartGym là một hệ thống full-stack hỗ trợ người dùng quản lý sức khỏe và hoạt động tập luyện một cách hiệu quả.  
+Ứng dụng cho phép theo dõi các chỉ số cơ thể, phân tích dữ liệu và đưa ra các gợi ý cá nhân hóa.
 
-Hệ thống kết hợp:
-- 📊 Data tracking (BMI, dinh dưỡng, giấc ngủ)
-- 🤖 AI (tư vấn thông minh)
-- ⛓️ Blockchain (minh bạch giao dịch)
-
-→ Tạo ra trải nghiệm **cá nhân hóa – thông minh – đáng tin cậy**
+Hệ thống tích hợp các công nghệ hiện đại như Trí tuệ nhân tạo (AI) và Blockchain nhằm nâng cao tính thông minh, minh bạch và độ tin cậy.
 
 ---
 
-## 🎯 Mục Tiêu Hệ Thống
+## 🎯 2. Mục Tiêu Dự Án
 
 - Xây dựng hệ thống quản lý sức khỏe toàn diện  
-- Ứng dụng AI để đưa ra gợi ý thông minh  
-- Tích hợp Blockchain để đảm bảo minh bạch  
-- Thiết kế hệ thống có khả năng mở rộng cao  
-- Mô phỏng hệ thống thực tế (real-world system)  
+- Theo dõi các chỉ số như BMI, dinh dưỡng, giấc ngủ, nước uống  
+- Đề xuất bài tập và chế độ ăn phù hợp  
+- Tích hợp AI để tư vấn thông minh  
+- Đảm bảo hệ thống có khả năng mở rộng và dễ bảo trì  
 
 ---
 
-## 🏗️ Kiến Trúc Hệ Thống
+## 👥 3. Đối Tượng Sử Dụng
 
-Hệ thống được thiết kế theo mô hình **3-tier architecture**:
-
-- 🎨 Presentation Layer (Frontend - Flutter)
-- ⚙️ Application Layer (Backend - ASP.NET Core API)
-- 🗄️ Data Layer (SQL Server + Blockchain)
+- Người mới bắt đầu tập luyện  
+- Người muốn cải thiện sức khỏe tại nhà  
+- Người cần theo dõi chỉ số cơ thể hằng ngày  
 
 ---
 
-## 👥 Vai Trò Người Dùng
+## 💼 4. Phân Tích Nghiệp Vụ
 
-| Vai trò | Mô tả |
-|--------|------|
-| 👤 User | Theo dõi sức khỏe, tập luyện |
-| 👑 Admin | Quản lý hệ thống |
-| 🤖 AI System | Gợi ý & tư vấn |
-
----
-
-## 🧠 Phân Tích Nghiệp Vụ (Business Analyst)
-
-### 🔹 1. Phân tích hệ thống
-- Xác định actor & use case  
-- Xây dựng Use Case Diagram, Activity Diagram, ERD  
-- Phân tích yêu cầu chức năng & phi chức năng  
+### 4.1 Phân tích hệ thống
+- Xác định actor và use case  
+- Thiết kế Use Case Diagram, Activity Diagram, ERD  
+- Phân tích yêu cầu chức năng và phi chức năng  
 
 ---
 
-### 🔹 2. Thiết kế luồng nghiệp vụ
+### 4.2 Luồng nghiệp vụ
 
-#### 📌 Luồng xác thực
+#### Luồng xác thực
 - Đăng ký → xác thực → đăng nhập  
 - Quên mật khẩu  
 
-#### 📌 Luồng theo dõi sức khỏe
+#### Luồng theo dõi sức khỏe
 - Nhập dữ liệu → xử lý → hiển thị dashboard  
 
-#### 📌 Luồng AI Chat
-- User input → gửi API → AI xử lý → trả kết quả  
+#### Luồng AI Chat
+- Người dùng nhập → gọi API → AI xử lý → trả kết quả  
 
-#### 📌 Luồng thanh toán
-- Chọn sản phẩm → tạo đơn → QR Payment → xác nhận  
-
----
-
-### 🔹 3. Thiết kế dữ liệu
-- User, HealthData, Exercise, Nutrition  
-- Order, Transaction, Wallet (GymCoin)  
+#### Luồng thanh toán
+- Chọn sản phẩm → tạo đơn → thanh toán QR → xác nhận  
 
 ---
 
-## 🎨 Phát Triển Giao Diện (Frontend)
-
-### 🔹 UI/UX Design
-- Responsive đa nền tảng  
-- Thiết kế trực quan, dễ sử dụng  
-- Dashboard biểu đồ realtime  
-
----
-
-### 🔹 Các module chính
-
-- 🏠 Dashboard  
-- 🏋️ Exercise Tracking  
-- 🍎 Nutrition Tracking  
-- 💧 Water Tracking  
-- 😴 Sleep Tracking  
-- 🛒 E-commerce  
-- 🤖 AI Chat  
+### 4.3 Thiết kế dữ liệu
+- User  
+- HealthData  
+- Exercise  
+- Nutrition  
+- Order  
+- Transaction  
+- Wallet (GymCoin)  
 
 ---
 
-### 🔹 Tối ưu trải nghiệm
+## 🎨 5. Phát Triển Giao Diện
+
+### 5.1 Thiết kế UI/UX
+- Responsive trên Mobile và Web  
+- Giao diện trực quan, dễ sử dụng  
+- Dashboard hiển thị dữ liệu bằng biểu đồ  
+
+---
+
+### 5.2 Các module chính
+- Dashboard  
+- Theo dõi tập luyện  
+- Theo dõi dinh dưỡng  
+- Theo dõi nước uống  
+- Theo dõi giấc ngủ  
+- E-commerce  
+- AI Chat  
+
+---
+
+### 5.3 Tối ưu hiệu năng
 - Lazy loading  
-- Animation mượt  
-- Async API  
+- Gọi API bất đồng bộ  
+- Tối ưu trải nghiệm người dùng  
 
 ---
 
-## ⚙️ Chức Năng Hệ Thống
+## ⚙️ 6. Chức Năng Hệ Thống
 
-### 👤 User Features
-- Quản lý hồ sơ  
+### 6.1 Người dùng
+- Quản lý tài khoản  
 - Theo dõi sức khỏe  
-- Gợi ý tập luyện  
-- Chat AI  
+- Nhận gợi ý tập luyện  
+- Chat với AI  
 
 ---
 
-### 🛒 E-commerce
+### 6.2 E-commerce
 - Xem sản phẩm  
 - Giỏ hàng  
 - Thanh toán QR  
 
 ---
 
-### 💰 Ví GymCoin
+### 6.3 Ví GymCoin
 - Nạp tiền  
 - Theo dõi giao dịch  
 - Thanh toán nội bộ  
 
 ---
 
-### 👑 Admin
-- Quản lý user  
+### 6.4 Quản trị viên
+- Quản lý người dùng  
 - Quản lý dữ liệu  
-- Dashboard  
+- Dashboard thống kê  
 
 ---
 
-## ⛓️ Blockchain Integration
+## ⛓️ 7. Tích Hợp Blockchain
 
-### 🔹 Mục đích
-- Đảm bảo tính **minh bạch & không thể chỉnh sửa dữ liệu**
+### 7.1 Mục đích
+- Đảm bảo dữ liệu minh bạch và không thể chỉnh sửa  
 
 ---
 
-### 🔹 Ứng dụng
+### 7.2 Ứng dụng
 - Lưu lịch sử giao dịch GymCoin  
 - Xác minh thanh toán  
-- Chống gian lận  
+- Ngăn chặn gian lận  
 
 ---
 
-### 🔹 Smart Contract
+### 7.3 Smart Contract
 - Xử lý giao dịch  
 - Tự động hóa thanh toán  
-- Bảo toàn dữ liệu  
+- Đảm bảo toàn vẹn dữ liệu  
 
 ---
 
-## 🤖 AI Integration
+## 🤖 8. Tích Hợp Trí Tuệ Nhân Tạo (AI)
 
-- Sử dụng **Google Gemini API**
+- Sử dụng Google Gemini API  
 - Hỗ trợ:
   - Gợi ý bài tập  
   - Tư vấn dinh dưỡng  
@@ -167,56 +155,62 @@ Hệ thống được thiết kế theo mô hình **3-tier architecture**:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ 9. Công Nghệ Sử Dụng
 
-### 🔹 Frontend
+### Frontend
 - Flutter (Dart)  
 - Provider / Bloc  
 - fl_chart  
 
 ---
 
-### 🔹 Backend
+### Backend
 - ASP.NET Core Web API  
 - Entity Framework Core  
 - JWT Authentication  
 
 ---
 
-### 🔹 Database
+### Database
 - SQL Server  
 
 ---
 
-### 🔹 Other Technologies
-- ⛓️ Blockchain (Smart Contract)  
-- 🤖 Gemini AI  
-- 💳 VietQR  
-- 📊 Chart  
+### Công nghệ khác
+- Blockchain (Smart Contract)  
+- Google Gemini AI  
+- VietQR Payment  
+- Chart Visualization  
 
 ---
 
-## 📊 Điểm Nổi Bật
+## 📊 10. Điểm Nổi Bật
 
-- 🚀 Full-stack hoàn chỉnh  
-- 🤖 AI + ⛓️ Blockchain  
-- 📈 Dashboard trực quan  
-- 💳 Thanh toán thực tế  
-- 🧠 Thiết kế theo system design  
-
----
-
-## 📈 Hướng Phát Triển
-
-- Wearable integration  
-- AI recommendation nâng cao  
-- Mobile app production  
-- Social fitness  
+- Hệ thống full-stack hoàn chỉnh  
+- Tích hợp AI và Blockchain  
+- Dashboard trực quan  
+- Thanh toán QR thực tế  
+- Thiết kế theo tư duy hệ thống  
 
 ---
 
-## 🧪 Testing & Quality
+## 📈 11. Hướng Phát Triển
+
+- Tích hợp thiết bị đeo (smartwatch)  
+- Nâng cấp AI recommendation  
+- Hoàn thiện mobile app  
+- Xây dựng social fitness  
+
+---
+
+## 🧪 12. Kiểm Thử
 
 - Unit testing (Backend)  
 - API testing (Postman)  
 - UI testing  
+
+---
+
+## 📫 13. Liên Hệ
+
+- GitHub: https://github.com/ThanhTin2209
